@@ -32,8 +32,6 @@ src/main/java/com/muriloDev/backend
 ├─ dto # Objetos para comunicação entre client ↔ server (DTOs)
 ├─ exception # Tratamento global de exceções
 
-yaml
-Copiar código
 
 ---
 
@@ -79,8 +77,6 @@ Configure o banco de dados no application.properties ou application.yml.
 
 Rode a aplicação:
 
-bash
-Copiar código
 mvn spring-boot:run
 Teste os endpoints usando Postman, Insomnia ou qualquer cliente HTTP.
 
